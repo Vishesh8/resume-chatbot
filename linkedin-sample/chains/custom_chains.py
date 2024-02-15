@@ -11,7 +11,7 @@ llm_creative = ChatOpenAI(temperature=1, model_name="gpt-3.5-turbo")
 def get_summary_chain() -> LLMChain:
     summary_template = """
          given the information about a person from linkedin {information}, and twitter posts {twitter_posts} I want you to create:
-         1. a short summary
+         1. a short summary of all the skills,
          2. two interesting facts about them
          \n{format_instructions}
      """
