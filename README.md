@@ -1,4 +1,4 @@
-# Resume Chatbot Project
+# Resume Chatbot
 
 This is a demo project for creating a chatbot that assists in getting the resumes of the candidates with the best fit. The chatbot utilizes LLMs to interact with users, understand their requirements, and Databricks Vector Search to perform similarity search to get the relevant resumes
 
